@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fddd98;
+}
+
+.wrapper {
+
+}
+
+.container {
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-boxes {
+  width: 750px;
+  height: 450px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: flex;
+}
+
+.card-left-menu {
+  overflow-y: scroll;
+  height: 450px;
+  width: 300px;
+  background-color: rgb(238, 238, 236);
+}
+
+.card-left-head-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-head-box-title {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.card-left-head-box-img {
+  margin-top: 20px;
+}
+
+.cards {
+  margin-left: -40px;
+}
+
+.card-item {
+  width: 240px;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.card-item-active {
+  width: 240px;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 30px;
+  border: 2px solid rgb(24, 90, 143);
+}
+
+.card-item {
+  border: 2px solid transparent;
+  transition-duration: 1s ease;
+}
+
+.card-item:hover {
+ 
+  border-color: blue;
+}
+
+.card-img {
+  margin-left: 10px;
+}
+
+.card-number {
+  margin-top: 0;
+  color: #222;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.card-date {
+  margin-left: 10px;
+  color: #222;
+}
+
+.right-section-line {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.card-right-menu {
+width: 450px;
+ overflow-y: scroll;
+}
+
+.card-right-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-right-header-title {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #222;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.card-right-header-money {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #222;
+  font-weight: 700;
+  margin-right: 20px;  
+}
+
+.card-right-menu-list {
+
+}
+
+.right-menu-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.p-m {
+  border-radius: 50%;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.right-list-section {
+  text-align: center;
+}
+
+.right-list-section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+}
+
+.right-list-section-text {
+  color: rgb(100, 100, 100);
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.right-section-price {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(56, 87, 155);
+  margin-right: 10px;
+}
+
+.right-section-price-active {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(65, 185, 85);
+  margin-right: 10px;
+}
